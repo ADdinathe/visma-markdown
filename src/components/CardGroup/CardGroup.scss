@@ -1,0 +1,10 @@
+@import "src/styles/styles";
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 24px;
+  height: 524px;
+  width: 636px;
+}
