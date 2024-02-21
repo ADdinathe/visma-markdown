@@ -17,8 +17,10 @@ const Card: React.FC<CardProps> = ({tag, color = CardColorEnum.blue, children})=
 
     return (
         <div className={cn('card', `card_${color}`)}>
-            <div className="tag">{tag}</div>
-            <div className="text">{children}</div>
+
+                <div className="tag">{tag}</div>
+                <div className="text">{children}</div>
+
         </div>
     )
 }
