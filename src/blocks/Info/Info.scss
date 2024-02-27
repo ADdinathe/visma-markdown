@@ -1,0 +1,53 @@
+@import "src/styles/styles";
+
+.container1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 109px 0 150px 0;
+
+  .info1 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-bottom: 500px;
+      margin-right: 130px;
+      width: 306px;
+    .title1 {
+      color: rgb(51, 51, 51);
+      margin-bottom: 70px;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 140%;
+      text-align: left;
+    }
+    p {
+      display: flex;
+      position: relative;
+      color: rgb(61, 52, 139);
+      font-size: 16px;
+      line-height: 140%;
+      text-align: left;
+      text-decoration: dotted underline $blue;
+      margin-bottom: 40px;
+      max-width: 225px;
+
+      &:after {
+        content: '';
+        position: absolute;
+        flex-direction: column;
+        margin-left: 250px;
+        top: 50%;
+        transform: translate3d(0, -50%, 0);
+        padding-left: 15px;
+        width: 30px;
+        height: 30px;
+        background: url("../../img/info/img.png") no-repeat center / contain;
+      }
+    }
+  }
+  .cards1 {
+    max-width: 800px;
+    margin-left: 135px;
+  }
+}

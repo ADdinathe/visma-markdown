@@ -22,7 +22,6 @@ const Head: React.FC = ()=>{
             <div className="cards">
                 <CardGroup cards={HEAD_CARDS}/>
             </div>
-
         </div>
 
     )
