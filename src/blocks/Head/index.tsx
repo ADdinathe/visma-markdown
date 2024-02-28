@@ -2,6 +2,7 @@ import React from "react";
 import './Head.scss';
 import CardGroup from "../../components/CardGroup/CardGroup";
 import {HEAD_CARDS} from "../../config/cards";
+import Button from "../../components/Button";
 
 const Head: React.FC = ()=>{
 
@@ -15,9 +16,9 @@ const Head: React.FC = ()=>{
                 <div className="text">
                     Vel posuere nibh odio placerat massa vel tellus tortor. Varius eget nunc scelerisque etiam felis facilisi ante viverra sem. Nunc eros elementum.
                 </div>
-                <div className="button">
+                <Button>
                     о компании
-                </div>
+                </Button>
             </div>
             <div className="cards">
                 <CardGroup cards={HEAD_CARDS}/>

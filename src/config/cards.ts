@@ -1,4 +1,4 @@
-import {CardColorEnum} from "../components/Card";
+import {CardColorEnum} from "./colors";
 
 
 const tag = 'услуги';

@@ -1,0 +1,22 @@
+@import "src/styles/styles";
+
+.news-container {
+  padding: 150px 40px;
+  background: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+
+  .title {
+    @include block-title;
+    color: $vismaBlack;
+  }
+}

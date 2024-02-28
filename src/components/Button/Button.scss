@@ -1,0 +1,25 @@
+@import "src/styles/styles";
+
+.button {
+  position: relative;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 10%;
+  text-transform: uppercase;
+  color: $white;
+
+  &_purple {
+    color: $purple;
+  }
+
+  //TODO: хз как добавить стили к svg надо погуглить
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translate3d(0, -50%, 0);
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+  }
+}

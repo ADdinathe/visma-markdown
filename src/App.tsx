@@ -1,6 +1,7 @@
 import React from 'react';
 import Head from "./blocks/Head";
-import Info from "./blocks/Info/info";
+import Services from "./blocks/Info";
+import News from "./blocks/News";
 
 
 
@@ -8,7 +9,8 @@ function App() {
   return (
     <div className="App">
         <Head/>
-        <Info/>
+        <Services/>
+        <News/>
      </div>
   );
 }

@@ -1,11 +1,9 @@
 import React from "react";
 import './Card.scss';
 import cn from 'classnames';
+import {CardColorEnum} from "../../config/colors";
 
-export enum CardColorEnum {
-    blue = 'blue',
-    purple = 'purple'
-}
+
 
 export type CardProps = {
     children:  React.ReactNode;
