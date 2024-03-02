@@ -1,4 +1,4 @@
 export enum CardColorEnum {
-    blue = 'blue',
-    purple = 'purple'
+  blue = 'blue',
+  purple = 'purple',
 }

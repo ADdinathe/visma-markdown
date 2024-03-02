@@ -1,18 +1,17 @@
 import React from 'react';
-import Head from "./blocks/Head";
-import Services from "./blocks/Info";
-import News from "./blocks/News";
 
+import Head from 'blocks/Head';
+import Services from 'blocks/Info';
+import News from 'blocks/News';
 
-
-function App() {
+const App = () => {
   return (
     <div className="App">
-        <Head/>
-        <Services/>
-        <News/>
-     </div>
+      <Head />
+      <Services />
+      <News />
+    </div>
   );
-}
+};
 
 export default App;

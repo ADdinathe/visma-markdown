@@ -1,0 +1,10 @@
+@import "styles/styles";
+
+.carousel {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 24px;
+}

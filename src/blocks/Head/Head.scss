@@ -1,4 +1,4 @@
-@import "src/styles/styles";
+@import "styles/styles";
 
 .container {
   display: flex;
@@ -6,7 +6,6 @@
   justify-content: center;
   padding: 113px 40px;
   background: url("../../img/head/headBackground.jpg") no-repeat center / cover;
-
 
   .info {
     display: flex;
@@ -38,17 +37,15 @@
       letter-spacing: 10%;
       text-transform: uppercase;
 
-
-      //TODO: потыкать как это работает самому
-      &:after {
-        content: '';
+      //  TODO: потыкать как это работает самому
+      &::after {
+        content: "";
         position: absolute;
         top: 50%;
         transform: translate3d(0, -50%, 0);
         padding-left: 15px;
         width: 30px;
         height: 30px;
-        //background: url("../../img/head/arrow.png") no-repeat center / contain;
       }
     }
   }
